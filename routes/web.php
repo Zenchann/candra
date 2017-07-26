@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('articles','ArticleController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
