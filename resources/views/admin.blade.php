@@ -4,6 +4,6 @@
 	<title>Admin</title>
 </head>
 <body>
-	Selamat datang Admin
+	<h2>Selamat datang Admin</h2>
 </body>
 </html>
