@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About</title>
+	<title>Laravel</title>
 </head>
 <body>
-		Ini Halaman About
+		Belajar Laravel
 </body>
 </html>

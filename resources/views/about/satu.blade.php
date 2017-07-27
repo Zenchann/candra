@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Halaman Index</title>
+	<title>Halaman About 1</title>
 </head>
 <body>
-		Ini Halaman Index
+		Halaman About 1
 </body>
 </html>

@@ -15,11 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Route::get('/about', function() {
+return '<h1>Halo</h1>'
+.'Selamat datang di webapp saya<br>Laravel, emang keren';
+});
 
-Route::get('/home', 'HomeController@index');
+Route::get('latihan', function() {
+    return view('about');
+});
 
-Route::resource('articles','ArticleController');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/nama/{halaman}', function() {
+	$a = 'John';
+return 'Ini Halaman About <b>'.$a.'</b>';
+});

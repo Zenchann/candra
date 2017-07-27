@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin</title>
+	<title>Halaman 2</title>
 </head>
 <body>
-	<h2>Selamat datang Admin</h2>
+		Halaman 2
 </body>
 </html>
